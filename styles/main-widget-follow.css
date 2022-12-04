@@ -1,0 +1,55 @@
+.follow{
+  /* position: sticky; */
+  /* height: 320px; */
+}
+
+.follow .element{
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 72px;
+}
+
+
+
+.follow .element img{
+  width: 48px;
+  border-radius: 24px;
+  margin-right: 14px;
+}
+
+.follow .element .profile-details{
+  /* color: red; */
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+.follow .element .profile-details .handle{
+  font-size: 13px;
+  color: var(--sub-text);
+}
+.follow .element .profile-details .name {
+  display: flex;
+}
+.follow .element .profile-details .name img{
+  margin-left: 4px;
+  width: 18px;
+}
+
+.follow-button{
+  background-color: var(--main-text);
+  color: var(--main-bg);
+  position: absolute;
+  right: 16px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: opacity 0.2s;
+}
+
+.follow-button:hover{
+  opacity: 0.85;
+}
+

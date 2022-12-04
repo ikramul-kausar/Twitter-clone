@@ -1,0 +1,5 @@
+border allignment
+sizing elements of main feed posting div 
+add responsivemenss to sidebars
+add different types of feeds.
+

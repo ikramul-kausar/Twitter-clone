@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+:root {
+  --twitter-blue: rgb(29, 155, 240);
+  /* --twitter-blue: rgb(209, 154, 58); */
+  --twitter-blue-hover: rgba(29, 155, 240, 0.1);
+  --like-pink: rgb(249, 24, 128);
+  --like-pink-hover: rgba(249, 24, 129, 0.3);
+  --retweet-green: rgb(1, 161, 108);
+  --retweet-green-hover: rgba(1, 161, 108, 0.17);
+  --main-text: rgb(227, 229, 230);
+  --sub-text: rgb(113, 118, 123);
+  --gray-hover: rgb(255, 255, 255, 0.08);
+  --gray-hover-dark: rgba(52, 52, 52, 0.1);
+  --gray-hover-widget: rgba(42, 45, 53, 0.3);
+  --tooltip-blue: rgb(75, 92, 107);
+  --widget-bg: rgb(22, 24, 28);
+  --border-gray: rgba(47, 51, 54);
+  --main-bg: rgb(8, 8, 8);
+}
+body {
+  margin: 0;
+  background-color: var(--main-bg);
+  color: var(--main-text);
+  font-family: roboto, arial;
+}
+p {
+  margin: 0;
+}
+.main-centering-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-container {
+  position: relative;
+  width: 270px;
+  top: 0;
+  bottom: 0;
+  /* change to adjust left margin and position of main-left */
+  /* background-color: red; */
+}
+
+.main-container {
+  width: 990px;
+  /* change to adjust left margin  and position of main-left  */
+  /* background-color: rgba(191, 191, 191, 0.79); */
+  display: flex;
+}
+
+.main-feed-container {
+  /* background-color: rgb(50, 49, 49); */
+  /* border-right: 1px solid rgb(56, 56, 56); */
+  width: 600px;
+  padding-top: 55px;
+}
+.main-widget-container {
+  align-self: flex-start;
+  border-left: 1px solid var(--border-gray);
+  width: 350px;
+  /* height: 1000px; */
+  padding-top: 68px;
+  padding-left: 28px;
+  padding-bottom: 90px;
+  /* background-color: rgb(250, 0, 0); */
+}
+
+/* hover transition */
+.hover-bg-transition {
+  transition: background-color 0.15s;
+}
