@@ -1,1 +1,2 @@
 first version with lots of work to be done.
+v1.1: fixed border issue on main feed

@@ -43,6 +43,7 @@ p {
 .sidebar-container {
   position: relative;
   width: 270px;
+  /* left: -271px; */
   top: 0;
   bottom: 0;
   /* change to adjust left margin and position of main-left */
@@ -58,15 +59,18 @@ p {
 
 .main-feed-container {
   /* background-color: rgb(50, 49, 49); */
-  /* border-right: 1px solid rgb(56, 56, 56); */
+  box-sizing: content-box;
+  border-right: 1px solid var(--border-gray);
   width: 600px;
   padding-top: 55px;
 }
 .main-widget-container {
-  align-self: flex-start;
-  border-left: 1px solid var(--border-gray);
+  /* align-self: flex-start; */
+  /* border-left: 1px solid var(--border-gray); */
   width: 350px;
   /* height: 1000px; */
+  /* position: relative;
+  bottom: 0; */
   padding-top: 68px;
   padding-left: 28px;
   padding-bottom: 90px;
@@ -77,3 +81,18 @@ p {
 .hover-bg-transition {
   transition: background-color 0.15s;
 }
+
+/* comment
+
+@media (max-width: 900px) {
+
+  .main-widget-container {
+    display: none;
+    
+  }
+  .sidebar-container {
+    width: 100px;
+  }
+}
+
+*/

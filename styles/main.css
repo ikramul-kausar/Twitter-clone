@@ -1,4 +1,4 @@
-.main-header{
+.main-header {
   /* background-color: rgba(44, 44, 44, 0.395); */
   height: 53px;
   position: fixed;
@@ -8,9 +8,9 @@
   align-items: center;
   justify-content: space-between;
   z-index: 2;
-  backdrop-filter:  blur(20px);    
+  backdrop-filter: blur(20px);
 }
-.top-tweet-container{
+.top-tweet-container {
   width: 34px;
   height: 34px;
   display: flex;
@@ -21,15 +21,14 @@
   cursor: pointer;
   transition: background-color 0.15s;
   border-radius: 17px;
-  
 }
-.top-tweet-container:hover{
+.top-tweet-container:hover {
   background-color: var(--gray-hover);
 }
-.top-tweet-container img{
+.top-tweet-container img {
   width: 20px;
 }
-.main-header div:first-child{
+.main-header div:first-child {
   /* background-color: red; */
   margin-left: 16px;
   font-size: 20px;
@@ -37,18 +36,13 @@
   cursor: pointer;
 }
 
-.show-more-tweets{
+.show-more-tweets {
   padding: 18px;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid rgb(56, 56, 56);
   color: var(--twitter-blue);
 }
-.show-more-tweets:hover{
+.show-more-tweets:hover {
   background-color: var(--gray-hover-dark);
 }
-
-
-
-
-

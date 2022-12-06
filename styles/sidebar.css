@@ -1,4 +1,4 @@
-.sidebar{
+.sidebar {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -6,10 +6,10 @@
   padding-right: 38px;
   /* background-color: rgba(123, 123, 123, 0.108); */
 }
-.main-icon{
+.main-icon {
   /* background-color: rgb(199, 33, 33); */
 }
-.main-icon .img-container{
+.main-icon .img-container {
   margin-left: 7px;
   margin-top: 3px;
   margin-bottom: 10px;
@@ -20,24 +20,23 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  
 }
-.main-icon .img-container:hover{
+.main-icon .img-container:hover {
   background-color: var(--twitter-blue-hover);
 }
 
-.main-icon .img-container img{
+.main-icon .img-container img {
   object-fit: contain;
 }
 
-.sidebar-element-container{
+.sidebar-element-container {
   /* background-color: rgb(17, 83, 83); */
   display: flex;
   align-self: center;
   justify-content: start;
   margin-bottom: 8px;
 }
-.sidebar-element{
+.sidebar-element {
   margin-left: 7px;
   padding-left: 12px;
   padding-right: 30px;
@@ -51,8 +50,8 @@
   font-weight: 500;
   cursor: pointer;
 }
-.sidebar-element:hover{
-   background-color: var(--gray-hover);
+.sidebar-element:hover {
+  background-color: var(--gray-hover);
 }
 
 .sidebar-element img {
@@ -60,11 +59,11 @@
   margin-right: 20px;
 }
 
-
-.tweet-btn-container{
+.tweet-btn-container {
   /* background-color: aqua; */
 }
-.tweet-btn-container button{
+.tweet-btn-container button {
+  /* display: none; */
   margin-top: 4px;
   margin-left: 6px;
   padding: 16px 88px;
@@ -75,11 +74,11 @@
   border-radius: 36px;
   border: none;
 }
-.tweet-btn-container button:hover{
+.tweet-btn-container button:hover {
   opacity: 0.95;
 }
 
-.user-account{
+.user-account {
   position: absolute;
   bottom: 14px;
   right: 14px;
@@ -89,30 +88,45 @@
   border-radius: 30px;
   cursor: pointer;
 }
-.user-account:hover{
+.user-account:hover {
   background-color: var(--gray-hover);
 }
 
-.user-name{
+.user-name {
   font-weight: 600;
   margin-bottom: 4px;
 }
-.user-handle{
-  color:var(--sub-text);
+.user-handle {
+  color: var(--sub-text);
   font-size: 14px;
 }
-.user-img{
+.user-img {
   width: 40px;
   border-radius: 20px;
   margin-right: 12px;
   object-fit: contain;
 }
-.user-info{
-  margin-right:44px;
+.user-info {
+  margin-right: 44px;
 }
-.user-options{
+.user-options {
   width: 18px;
-
 }
 
+/* comment
+@media (max-width: 900px) {
+  .sidebar-element p {
+    display: none;
+  }
+  .sidebar-element {
+    padding-right: 12px;
+  }
+  .tweet-btn-container button {
+    display: none;
+  }
+  .user-account {
+    display: none;
+  }
+}
 
+*/
