@@ -1,5 +1,11 @@
-border allignment
-sizing elements of main feed posting div 
+
+resize elements of main feed posting div 
+
 add responsiveness to sidebars
+
+to fix: widget-container goes out of screen on scroll up
+
+layout alignments
+
 add different types of feeds.
 
