@@ -3,8 +3,10 @@ layout-fixes: v2
   removed box model on whole html
   fixed left side overlap issue
   added basic media-queries
-  
 
+layout-fixes: v2.1 
+  sidebar responsive and layout issues mostly fixed.
+  minor alignment issues remaining
 
 main:v1.1: 
   fixed border issue on main feed right

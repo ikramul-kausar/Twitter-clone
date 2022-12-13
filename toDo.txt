@@ -1,11 +1,9 @@
 
 resize elements of main feed posting div 
 
-add responsiveness to sidebars
+add tooltip to sidebars element when showing icons only
 
 to fix: widget-container goes out of screen on scroll up
-
-layout alignments
 
 add different types of feeds.
 
