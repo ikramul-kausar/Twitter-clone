@@ -8,6 +8,11 @@ layout-fixes: v2.1
   sidebar responsive and layout issues mostly fixed.
   minor alignment issues remaining
 
+layout-fixes: v2.2
+  widget area scroll issue fixed(using js ).
+  widget area responsive and layout issues mostly fixed.
+  added duplicate feeds
+
 main:v1.1: 
   fixed border issue on main feed right
 
